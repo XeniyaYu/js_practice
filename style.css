@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: Segoe UI;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.text {
+    font-family: Segoe UI;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.slider__wrap {
+    max-width: 800px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.slider {
+    margin-bottom: 20px;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slider__control {
+
+}
+.slider__control-button {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    background: blue;
+    margin-top: calc(-60px/2);
+    border-radius: 20px;
+
+}
+
+.slider__control-prev {
+    left: 20px;
+}
+
+.slider__control-next {
+    right: 20px;
+}
+
+#viewSlider {
+display: flex;
+gap: 10px;
+justify-content: center;
+}
+
+#slider__pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* .slider__pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+} */
+
+.slider__pagination .viewSlide {
+    width: 20px;
+    height: 20px;
+    background: #8fbaff;
+    border-radius: 100%;
+}
+
+.slider__pagination .viewSlide.active {
+    background: blue;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Мой первый слайдер</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Заголовок -->
+
+    <h1 class="title">Стамбул - кошачий город</h1>
+
+    <!-- Текст -->
+
+    <p class="text">Согласно легендам, кошка была любимым животным пророка Мухаммеда. И, по крайней мере, это
+        единственное животное, которому позволено входить в мечеть. Поэтому немудрено, что Стамбул — крупнейший город
+        Турции и один из крупнейших культурных центров ислама в мире, — стал также и одной из мировых столиц кошек.
+        Впрочем, дело здесь не только в особом отношении к этим животным, но и в мягком средиземноморском климате.
+    </p>
+
+    <!-- Слайдер -->
+
+    <div class="slider__wrap">
+        <div id="slider__viewport" class="slider__viewport">
+            <div class="slider">
+                <div class="slide active"><img src="./img/img1.jpg" alt="image"></div>
+                <div class="slide"><img src="./img/img2.jpg" alt="image"></div>
+                <div class="slide"><img src="./img/img3.jpg" alt="image"></div>
+                <div class="slide"><img src="./img/img4.jpg" alt="image"></div>
+                <div class="slide"><img src="./img/img5.jpg" alt="image"></div>
+            </div>
+        </div>
+
+        <div class="slider__control">
+            <div class="slider__control-button slider__control-prev" id="slider__control-prev">Назад</div>
+            <div class="slider__control-button slider__control-next" id="slider__control-next">Вперед</div>
+        </div>
+
+        <div class="slider__pagination">
+            <div id="slider__pagination">
+                <div class="viewSlide active"></div>
+                <div class="viewSlide"></div>
+                <div class="viewSlide"></div>
+                <div class="viewSlide"></div>
+                <div class="viewSlide"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Скрипты -->
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

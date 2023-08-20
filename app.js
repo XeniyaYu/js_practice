@@ -1,0 +1,1 @@
+let viewport = document.getElementById('slider__viewport').offsetWidth;
